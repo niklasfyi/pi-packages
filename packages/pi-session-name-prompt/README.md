@@ -15,7 +15,7 @@ pi install ./pi-session-name-prompt
 Install the published package:
 
 ```sh
-pi install npm:@YOUR_NPM_USERNAME/pi-session-name-prompt
+pi install npm:@niklasfyi/pi-session-name-prompt
 ```
 
 ## What it does
