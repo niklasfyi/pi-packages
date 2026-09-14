@@ -1,6 +1,6 @@
 {
   "name": "@niklasfyi/pi-session-name-prompt",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Prompt for a human-entered name when a new Pi session starts.",
   "keywords": [
     "pi-package",
@@ -17,8 +17,13 @@
   ],
   "pi": {
     "extensions": [
-      "./extensions/session-name-prompt.ts"
+      "./extensions"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/niklasfyi/pi-packages",
+    "directory": "packages/pi-session-name-prompt"
   },
   "peerDependencies": {
     "@earendil-works/pi-coding-agent": "*"
