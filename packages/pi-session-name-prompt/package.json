@@ -1,13 +1,24 @@
 {
-  "name": "pi-session-name-prompt",
+  "name": "@niklasfyi/pi-session-name-prompt",
   "version": "0.1.0",
   "description": "Prompt for a human-entered name when a new Pi session starts.",
-  "keywords": ["pi-package", "pi-extension", "session", "name", "prompt"],
+  "keywords": [
+    "pi-package",
+    "pi-extension",
+    "session",
+    "name",
+    "prompt"
+  ],
   "license": "MIT",
   "type": "module",
-  "files": ["README.md", "extensions"],
+  "files": [
+    "README.md",
+    "extensions"
+  ],
   "pi": {
-    "extensions": ["./extensions/session-name-prompt.ts"]
+    "extensions": [
+      "./extensions/session-name-prompt.ts"
+    ]
   },
   "peerDependencies": {
     "@earendil-works/pi-coding-agent": "*"
